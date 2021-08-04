@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+
+body{
+    background: rgb(168, 172, 164);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1),0px 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px;
+    text-align: center;
+    width: 800px;
+    min-width: 100%;
+}
+h3{
+    /* 透明度   字体间的距离*/
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    width: 600px;
+    max-width: 80%; /*最大宽度不能超出container容器的80% */
+}
+
+.btn{
+    background:pink;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 40px;
+    cursor: pointer;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1),0px 6px 6px rgba(0, 0, 0, 0.1)
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:focus{
+    outline: none;
+}
+
